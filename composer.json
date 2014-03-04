@@ -1,0 +1,14 @@
+{
+    "name": "naldz/test-utility-bundle",
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": "~2.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	},
+	"autoload": {
+        "psr-0": { "Naldz\\Bundle\\TestUtilityBundle": "" }
+    },
+	"target-dir": "Naldz/Bundle/TestUtilityBundle"
+}
